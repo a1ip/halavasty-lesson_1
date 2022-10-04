@@ -7,16 +7,6 @@
   background: var(--color-key);
 }
 
-.slide::before {
-  content: " ";
-  background-image: url("../../public/images/logo.svg");
-  position: absolute;
-  bottom: 15px;
-  right: 10px;
-  width: 65px;
-  height: 15px;
-  background-size: 100%;
-}
 .slide::after {
   color: var(--color-key);
   background: white;
