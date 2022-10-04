@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shower Presentation Engine</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="node_modules/@shower/material/styles/styles.css"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <style>
+      .shower {
+        --slide-ratio: calc(16 / 9);
+      }
+    </style>
+  </head>
+  <body class="shower list">
+    <header class="caption">
+      <h1>Shower Presentation Engine</h1>
+      <p>Yours Truly, Famous Inc.</p>
+    </header>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">План на сегодня</h2>
+        <ul>
+          <li>Знакомимся</li>
+          <li>Обсудим инструменты для работы</li>
+          <li>Что мы знаем про Internet?</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Компонентный подход</li>
+          <li>Практика</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="shout">Кто я?</h2>
+      </div>
+    </section>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="shout">Кто вы?</h2>
+      </div>
+    </section>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="shout">И кто такой разработчик интерфейсов?</h2>
+      </div>
+    </section>
+
+    <section class="slide purple">
+      <img class="cover" src="public/images/stack-web.png" alt="html code" />
+    </section>
+    <section class="slide purple">
+      <h2 class="white">А вот уже и наш зоопарк</h2>
+      <img
+        class="cover"
+        src="public/images/front-end tools.jpeg"
+        alt="html code"
+      />
+    </section>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">Основные принципы</h2>
+        <ul>
+          <li>Прозрачность</li>
+          <li>Интерактивность</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">Что нам для этого понадобится?</h2>
+        <ul>
+          <li>Последняя версия браузера Chrome</li>
+          <li>Рабочая почта</li>
+          <li>ToDo доска - <a href="http://trello.com/">trello.com</a></li>
+          <li>
+            Место где мы будем хранить код -
+            <a href="https://github.com/">github.com </a>
+          </li>
+          <li>
+            Редактор для нашего кода -
+            <a href="https://code.visualstudio.com">VS Code</a>
+          </li>
+          <li>
+            Графический редактор -
+            <a href="https://www.figma.com/downloads/">Figma</a>
+          </li>
+          <li>Песочница - <a href="https://codepen.io/">codepen</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">Internet</h2>
+        <ul>
+          <li>Что такое <b>Internet</b>?</li>
+          <li>Что такое <b>HTTP</b></li>
+          <li>Что такое <b>DNS</b></li>
+          <li>Что такое <b>Browsers</b></li>
+        </ul>
+      </div>
+    </section>
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">
+          <a href="https://developer.mozilla.org/ru/docs/Web/HTML">HTML</a>
+        </h2>
+        <ul>
+          <li>Основы</li>
+        </ul>
+      </div>
+    </section>
+    <section class="slide purple">
+      <h2 class="white">Язык разметки гипертекста</h2>
+      <img class="cover" src="public/images/html.png" alt="html code" />
+    </section>
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">
+          <a href="https://developer.mozilla.org/ru/docs/Web/HTML">HTML</a>
+        </h2>
+        <ul>
+          <li>Основы</li>
+          <li>Семантическая вёрстка</li>
+        </ul>
+      </div>
+    </section>
+    <section class="slide purple">
+      <h2 class="white">Cемантические элементы в HTML</h2>
+      <img class="cover" src="public/images/semantic.png" alt="html code" />
+    </section>
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">
+          <a href="https://developer.mozilla.org/ru/docs/Web/CSS">CSS</a>
+        </h2>
+        <ul>
+          <li>Основы</li>
+        </ul>
+      </div>
+    </section>
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">Источники</h2>
+        <ul>
+          <li>Браузер</li>
+          <li>Разработчик</li>
+          <li>Пользователь</li>
+        </ul>
+      </div>
+    </section>
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">Синтаксис</h2>
+        <pre>            
+        <code>&lt;html lang="en"&gt;</code>
+        <code>&lt;head&gt; <span class="comment">&lt;!--Comment--&gt;</span></code>
+        <code>&lt;title&gt;Shower&lt;/title&gt;</code>
+        <code>&lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
+        <code class="mark">&lt;link rel="stylesheet" href="screen.css"&gt;</code>
+        <code>&lt;script src="script.js"&gt;&lt;/script&gt;</code>
+        <code class="mark">&lt;style&gt;h1 {color: red;}&lt;/style&gt;</code>
+        <code>&lt;/head&gt;</code>
+      </pre>
+      </div>
+    </section>
+    <section class="slide purple">
+      <h2 class="white">Синтаксис</h2>
+      <img class="cover" src="public/images/styles.png" alt="html code" />
+    </section>
+
+    <section class="slide purple">
+      <h2 class="white">Синтаксис</h2>
+      <img class="cover" src="public/images/selector.png" alt="html code" />
+    </section>
+
+    <section class="slide purple">
+      <h2 class="white">Вес селекторов</h2>
+      <img class="cover" src="public/images/ves.png" alt="html code" />
+    </section>
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="shout">Компонентный подход</h2>
+      </div>
+    </section>
+    <section class="slide purple">
+      <h2 class="white">Компонентный подход</h2>
+      <img class="cover" src="public/images/component.png" alt="html code" />
+    </section>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="">О чём мы сегодня говорили</h2>
+        <ul>
+          <li>Познакомились</li>
+          <li>Обсудили инструменты для работы</li>
+          <li>Internet</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Компонентный подход</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide purple">
+      <div class="content">
+        <h2 class="shout">Практика</h2>
+      </div>
+    </section>
+
+    <footer class="badge">
+      <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+    </footer>
+
+    <div class="progress"></div>
+
+    <script src="node_modules/@shower/core/dist/shower.js"></script>
+    <!-- Copyright © 2022 Yours Truly, Famous Inc. -->
+  </body>
+</html>

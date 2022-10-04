@@ -1,0 +1,6 @@
+@import "shower/shower.css";
+@import "slide/slide.css";
+
+h1 {
+  color: green;
+}
